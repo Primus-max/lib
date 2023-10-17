@@ -1,9 +1,9 @@
 ﻿namespace ds.test.impl
 {
-
     /// <summary>
     /// Метод реализующий операцию вычисления процента над двумя целыми числами
     /// </summary>
+    /// <returns>Возвращает процент от вычисления от значения input1 как часть от input2. </returns>
     public class PercentagePlugin : PluginBase
     {
         public override string PluginName => "PercentagePlugin";
