@@ -1,6 +1,4 @@
-﻿using System.Drawing;
-
-namespace ds.test.impl
+﻿namespace ds.test.impl
 {
     /// <summary>
     /// Метод реализующий операцию умножения над двумя целыми числами
