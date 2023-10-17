@@ -1,7 +1,8 @@
-﻿using System.Drawing;
-
-namespace ds.test.impl
+﻿namespace ds.test.impl
 {
+    /// <summary>
+    /// Метод реализующий операцию сложения над двумя целыми числами
+    /// </summary>
     public class AdditionPlugin : PluginBase
     {
         public override string PluginName => "AdditionPlugin";
