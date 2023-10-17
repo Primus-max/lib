@@ -1,4 +1,4 @@
-﻿namespace lib
+﻿namespace ds.test.impl
 {
     public interface IPlugin
     {
