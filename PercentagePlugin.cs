@@ -9,7 +9,7 @@
         public override string PluginName => "PercentagePlugin";
         public override string Version => "1.0";
         public override Image Image => null; 
-        public override string Description => "This plugin calculates percentages.";
+        public override string Description => "Этот плагин вычисляет процент от двух чисел";
 
         public override int Run(int input1, int input2)
         {

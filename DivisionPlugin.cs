@@ -8,7 +8,7 @@
         public override string PluginName => "DivisionPlugin";
         public override string Version => "1.0";
         public override Image Image => null; 
-        public override string Description => "This plugin performs division.";
+        public override string Description => "Этот плагин выполняет деление двух целых чисел";
 
         public override int Run(int input1, int input2)
         {
