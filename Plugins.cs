@@ -8,7 +8,10 @@
         /// <summary>
         /// Список хранящий доступные плагины библиотеки
         /// </summary>
-        private static IPlugin[] plugins = { new AdditionPlugin(), new MultiplicationPlugin() };
+        private static IPlugin[] plugins =
+        {
+            new AdditionPlugin(), new MultiplicationPlugin(), new SubtractionPlugin(), new PercentagePlugin(), new DivisionPlugin()
+        };
 
         /// <summary>
         /// Свойство возвращает количество доступных плагинов
