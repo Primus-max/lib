@@ -1,7 +1,8 @@
 ﻿namespace ds.test.impl
 {
-    // Абстрактный класс, реализующий общие части IPlugin
-    // Абстрактный класс, реализующий общие части IPlugin
+    /// <summary>
+    /// Базовый класс реализущий часть интерфейса IPlugin
+    /// </summary>
     public abstract class PluginBase : IPlugin
     {
         public abstract string PluginName { get; }
